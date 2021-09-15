@@ -6,7 +6,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- titulo da aba da pagina-->
-    <title>Minha primeira pagina</title>
+    <title>Projeto Desafio Covid-19</title>
     <!--aqui insere o código de CSS em href-->
     <link rel="stylesheet" href="estilo.css">
 
@@ -102,7 +102,7 @@
                         href="https://www.roche.com.br/pt/diagnostica/COVID-19/Saiba-tudo-sobre-testagem-de-COVID-19.html">
                         Veja mais.</a>
                 </p>
-            </div>
+            </div><br/>
 
             <!--segundo bloco de noticias-->
             <div class="noticiasDestaques">
@@ -186,11 +186,24 @@
                     </a> </div>
             </div>
 
-            <div id="email">
-                <h3 id="receba">Receba nossas novidades</h3>
-                <input type="email" id="inputEmail" placeholder="Digite seu e-mail">
-                <button> Enviar! </button>
 
+            <div id="email">
+                <form class="form">
+
+                    <h3>Receba nossas novidades</h3>
+                    <input id="email" type="text" name="email" placeholder="Seu e-mail..."/>
+                    <input type="submit" name="acao" value="Enviar" />
+                </form>
+                <script var email = document.getElementById('email');
+                
+                email.addEventListener('focus',()=>{
+                    email.style.borderColor ="#4A5f6a";
+                });
+
+                email.addEventListener('blur',()=>{
+                    email.style.borderColor ="#ccc";
+                })
+                    </script>
             </div>
         </div>
 
