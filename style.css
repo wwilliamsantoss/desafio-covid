@@ -1,21 +1,23 @@
 header {
-	background: #dddbdb;
+	background: #e3e3ee;
 	padding: 10px 0;
 }
 
 
 .caixa{
+	
 	position: relative;
-	width: 100%
+	width: 940px;
+	width: 0 auto;
 
 }
 img{
-	width: 100%;
+	width: 150px;
 }
 
 nav{
 	position:absolute;
-	top: 100%;
+	top: 0%;
 	right: 0%;
 }
 
@@ -31,22 +33,70 @@ nav a {
 	font-size: 22px;
 	text-decoration: none;
 }
- nav a:hover {
+
+.perfil{
+	width: 940;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+.perfil li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5%  1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+	
+}
+
+.perfil li:hover{
+	border-color: #C78C19;
+
+}
+
+.perfil li:active{
+	border-color: #088c19;
+}
+.perfil li:hover h2 {
+		font-size: 34px;
+}
+.perfil h2{
+	font-size: 30px;	
+	font-weight: bold;
+	
+}
+
+
+
+.perfil-descricao{
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0 0;
+	
+
+}
+nav a:hover {
 	 color: #C78C19;
 	 text-decoration: underline;
 
  }
- footer{
-	 text-align: center;
-	 background:url("bg.jpg");
-	 padding: 40px 0;
- }
+ footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
  
- .copyright{
-	 color:FFFFFF;
-	 font-size: 13px;
-	 margin: 20px 0 0;
- }
 
  main{
 	 width: 940px;
