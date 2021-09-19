@@ -1,0 +1,67 @@
+body, ul, li, p{  /* Reset do estilo */
+    margin: 0px;
+    padding: 0px;
+    list-style: none;  /* retirada as bolinhas da lista */ 
+    font-size: 20px; 
+    font-family: arial;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* cabecalho */
+
+.header{
+    background-color: #004d99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+.menu{
+        display: flex;
+
+}
+
+.menu li{  /* distancia dos menus */
+    margin-left: 20px;
+}
+
+.menu li a{ 
+    display: block;
+    padding: 10px;
+}
+
+
+#rodape {
+
+    background-color: #004d99;
+    display: flex;
+    padding-top: 30px;
+    margin-top: 30px;
+    justify-content: space-between;
+    
+}
+
+.rede {
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#redesSociais{
+    margin-left: 30px;
+}
+
+
+
+h3 { /* nome rede sociais */
+    color: white;
+}

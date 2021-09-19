@@ -1,0 +1,79 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.header{
+    background-color: #004d99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+
+#rodape {
+
+    background-color: #004d99;
+    display: flex;
+    padding-top: 30px;
+    margin-top: 30px;
+    justify-content: space-between;
+    
+}
+
+.rede {
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#redesSociais{
+    margin-left: 30px;
+}
+
+#email {
+    margin-right: 50px;
+}
+
+h3 {
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 70px;
+    box-shadow: black 2px 2px 5px;
+}

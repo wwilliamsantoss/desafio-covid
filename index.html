@@ -1,220 +1,221 @@
 <!DOCTYPE html>
-
 <html lang="br">
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- titulo da aba da pagina-->
     <title>Projeto Desafio Covid-19</title>
     <!--aqui insere o código de CSS em href-->
-    <link rel="stylesheet" href="estilo.css">
-
+    <link rel="stylesheet" href="CSS/estilo.css">
 
 </head>
 
 <body>
 
-    <!--Div = divisoes -->
-    <div id="conteudo">
+    <!-- Cabecalho -->
+    <header class="header">
+        <a href="/index2.html"><img src="imagens/logo.png" alt="Logo home" width=""></a>
 
-        <!--Div da barra de navegacao Menu-->
-        <div id="navbar">
-            <div> <a href="index.html"> Home </a></div>
-            <div> <a href="quemsomos.html"> Quem Somos </a></div>
-            <div> <a href="contato.html"> Contato </a></div>
-            <div> <a href="saibamais.html"> Saiba Mais </a></div>
+        <nav>
+            <!-- navegador lista -->
+            <ul class="menu">
+                <li><a href="/index2.html">Home</a></li>
+                <li><a href="/quemsomos.html">Quem Somos</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+                <li><a href="/saibamais.html">Saiba Mais</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="imagemGeral">
+        <div id="imagemGeral">
+            <img id="imgGeral" src="imagens/banner_covid_1280x400.jpg" alt="banner principal" />
         </div>
-
-        <div class="imagemGeral">
-            <div id="imagemGeral">
-                <img id="imgGeral" src="imagens/banner_covid_1280x400.jpg" alt="banner principal" />
-            </div>
-        </div>
-
-        <div id="cabecalho">
-            <h1> O maior site com as últimas notícias sobre a COVID-19.</h1>
-        </div>
-        <div id="texto">
-            <p>As melhores e últimas notícias sobre a SARS-CoV-2 (COVID-19) em um único lugar, para você ficar informado
-                do que está acontecendo em todo Brasil. </p>
-        </div>
-
-
-
-        <div id="tituloNoticias">
-            <h2> Últimas Notícias </h2>
-        </div>
-
-        <div id="noticias">
-            <div class="noticiasDestaques">
-                <img class="imgDestaque"
-                    src="https://s2.glbimg.com/XT_seOz0l2sUgQC_a0Fgwapw2Dc=/0x0:1700x1065/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/O/B/eVxQ9PS6mf0JZMG85ExA/pfizer-domingo.jpg"
-                    alt="imagem site G1">
-
-                <h4>Covid-19: Brasil recebe maior remessa de vacinas entregues pela Pfizer em 4 voos com 5,1 milhões de
-                    doses</h4>
-                <p class="descDestaque">Aeronaves vão desembarcar no Aeroporto Internacional de Viracopos, em Campinas.
-                    Envios fazem parte do
-                    novo cronograma da empresa, que prevê 8,9 milhões de imunizantes até este domingo. </br>
-                    O Brasil recebe, neste domingo (12), a maior remessa de vacinas contra a Covid-19 entregue pela
-                    Pfizer desde o início do acordo com o governo federal. A farmacêutica americana envia, em quatro
-                    voos diferentes, 5,1 milhões de doses. As aeronaves vão desembarcar no Aeroporto Internacional de
-                    Viracopos, em Campinas (SP).
-                    <a
-                        href="https://g1.globo.com/sp/campinas-regiao/noticia/2021/09/12/covid-19-brasil-recebe-maior-remessa-de-vacinas-entregues-pela-pfizer-em-4-voos-com-51-milhoes-de-doses.ghtml">
-                        Veja mais. </a>
-                </p>
-
-            </div>
-
-            <div class="noticiasDestaques">
-                <iframe width="465" height="215" src="https://www.youtube.com/embed/eDni1Chanek"
-                    title="YouTube video Uol" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <h4>Ministério da Saúde vê risco de alta de hospitalizações por Covid em setembro | Gonzalo Vecina Neto
-                </h4>
-                <p class="descDestaque">O ministério da Saúde apontou que o país pode enfrentar um quadro de crescimento
-                    nas hospitalizações
-                    por covid-19 no mês de setembro. Gonzalo Vecina Neto, médico sanitarista e ex-presidente da Anvisa,
-                    comentou hoje, durante participação no UOL News, que "finalmente" as autoridades perceberam a
-                    chegada da variante delta. </br> "Caminho está longe de terminar (...) Previsão é de ter uma
-                    explosão de casos no final de setembro e início de outubro", alertou o especialista. </p>
-
-
-
-            </div>
-
-            <div class="noticiasDestaques">
-                <img class="imgDestaque" src="imagens/Banners_Perguntas_E_Respostas_COVID_19_V1_500x281_Destaquinho.png"
-                    alt="img perguntas e respostas">
-                <h4>Perguntas e Respostas sobre testagem</h4>
-                <p class="descDestaque">Confira as principais questões sobre a testagem da COVID-19 para manter-se
-                    informado durante a
-                    pandemia</p>
-                <p class="descDestaque">Para os especialistas em todos os países afetados pela pandemia, um fato é
-                    indiscutível: testes
-                    precisos e de alta qualidade são essenciais para conter e controlar essa ameaça à saúde global. Por
-                    isso, trouxemos aqui as principais dúvidas para ajudar você a entender melhor sobre o tema e saber
-                    como aprimorar os cuidados com a sua jornada da saúde ao lado do seu médico.
-                    <a
-                        href="https://www.roche.com.br/pt/diagnostica/COVID-19/Saiba-tudo-sobre-testagem-de-COVID-19.html">
-                        Veja mais.</a>
-                </p>
-            </div><br/>
-
-            <!--segundo bloco de noticias-->
-            <div class="noticiasDestaques">
-                <img class="imgDestaque"
-                    src="https://s2.glbimg.com/XT_seOz0l2sUgQC_a0Fgwapw2Dc=/0x0:1700x1065/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/O/B/eVxQ9PS6mf0JZMG85ExA/pfizer-domingo.jpg"
-                    alt="imagem site G1">
-
-                <h4>Covid-19: Brasil recebe maior remessa de vacinas entregues pela Pfizer em 4 voos com 5,1 milhões de
-                    doses</h4>
-                <p class="descDestaque">Aeronaves vão desembarcar no Aeroporto Internacional de Viracopos, em Campinas.
-                    Envios fazem parte do
-                    novo cronograma da empresa, que prevê 8,9 milhões de imunizantes até este domingo. </br>
-                    O Brasil recebe, neste domingo (12), a maior remessa de vacinas contra a Covid-19 entregue pela
-                    Pfizer desde o início do acordo com o governo federal. A farmacêutica americana envia, em quatro
-                    voos diferentes, 5,1 milhões de doses. As aeronaves vão desembarcar no Aeroporto Internacional de
-                    Viracopos, em Campinas (SP).
-                    <a
-                        href="https://g1.globo.com/sp/campinas-regiao/noticia/2021/09/12/covid-19-brasil-recebe-maior-remessa-de-vacinas-entregues-pela-pfizer-em-4-voos-com-51-milhoes-de-doses.ghtml">
-                        Veja mais. </a>
-                </p>
-
-            </div>
-
-            <div class="noticiasDestaques">
-                <iframe width="465" height="215" src="https://www.youtube.com/embed/eDni1Chanek"
-                    title="YouTube video Uol" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <h4>Ministério da Saúde vê risco de alta de hospitalizações por Covid em setembro | Gonzalo Vecina Neto
-                </h4>
-                <p class="descDestaque">O ministério da Saúde apontou que o país pode enfrentar um quadro de crescimento
-                    nas hospitalizações
-                    por covid-19 no mês de setembro. Gonzalo Vecina Neto, médico sanitarista e ex-presidente da Anvisa,
-                    comentou hoje, durante participação no UOL News, que "finalmente" as autoridades perceberam a
-                    chegada da variante delta. </br> "Caminho está longe de terminar (...) Previsão é de ter uma
-                    explosão de casos no final de setembro e início de outubro", alertou o especialista. </p>
-
-
-
-            </div>
-
-            <div class="noticiasDestaques">
-                <img class="imgDestaque" src="imagens/Banners_Perguntas_E_Respostas_COVID_19_V1_500x281_Destaquinho.png"
-                    alt="img perguntas e respostas">
-                <h4>Perguntas e Respostas sobre testagem</h4>
-                <p class="descDestaque">Confira as principais questões sobre a testagem da COVID-19 para manter-se
-                    informado durante a
-                    pandemia</p>
-                <p class="descDestaque">Para os especialistas em todos os países afetados pela pandemia, um fato é
-                    indiscutível: testes
-                    precisos e de alta qualidade são essenciais para conter e controlar essa ameaça à saúde global. Por
-                    isso, trouxemos aqui as principais dúvidas para ajudar você a entender melhor sobre o tema e saber
-                    como aprimorar os cuidados com a sua jornada da saúde ao lado do seu médico.
-                    <a
-                        href="https://www.roche.com.br/pt/diagnostica/COVID-19/Saiba-tudo-sobre-testagem-de-COVID-19.html">
-                        Veja mais.</a>
-                </p>
-
-
-            </div>
-
-
-        </div>
-
-        <!--Rodapé Redes sociais e contato-->
-
-
-        <div id="rodape">
-            <div id="contato">
-                <h3 id="redesSociais"> Redes Sociais</h3>
-                <div class="rede"><img src="imagens/whatsapp_icon.png" alt="whatsapp_icon" /> +55 (11)98123-6405
-                </div>
-                <div class="rede"><img src="imagens/linkedin_icon.png" alt="linkedin_icon" /> <a
-                        href="https://www.linkedin.com/in/jefferson-menezes-5719aa35/">
-                        Jefferson Tupinambá </a> </div>
-                <div class="rede"><img src="imagens/git_icon.png" alt="git_icon" /> <a
-                        href="https://www.linkedin.com/in/jefferson-tupinambá-5719aa35/"> Jefferson Tupinambá</a>
-                </div>
-                <div class="rede"><img src="imagens/instagram_icon.png" /> <a href="https://instagram.com/gjefamous">
-                        @gjefamous
-                    </a> </div>
-            </div>
-
-
-            <div id="email">
-                <form class="form">
-
-                    <h3>Receba nossas novidades</h3>
-                    <input id="email" type="text" name="email" placeholder="Seu e-mail..."/>
-                    <input type="submit" name="acao" value="Enviar" />
-                </form>
-                <script var email = document.getElementById('email');
-                
-                email.addEventListener('focus',()=>{
-                    email.style.borderColor ="#4A5f6a";
-                });
-
-                email.addEventListener('blur',()=>{
-                    email.style.borderColor ="#ccc";
-                })
-                    </script>
-            </div>
-        </div>
-
-
-
-
-
-
-
     </div>
+
+    <h1>Ultimas Notícias</h1>
+
+    <!-- secao noticias -->
+    <section class="flex">
+        <div class="noticiasDestaques">
+            <img class="imgDestaque"
+                src="https://s2.glbimg.com/XT_seOz0l2sUgQC_a0Fgwapw2Dc=/0x0:1700x1065/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/O/B/eVxQ9PS6mf0JZMG85ExA/pfizer-domingo.jpg"
+                alt="imagem site G1">
+
+            <h4>Covid-19: Brasil recebe maior remessa de vacinas entregues pela Pfizer em 4 voos com 5,1 milhões de
+                doses</h4>
+            <p class="descDestaque">Aeronaves vão desembarcar no Aeroporto Internacional de Viracopos, em Campinas.
+                Envios fazem parte do
+                novo cronograma da empresa, que prevê 8,9 milhões de imunizantes até este domingo. </br>
+                O Brasil recebe, neste domingo (12), a maior remessa de vacinas contra a Covid-19 entregue pela
+                Pfizer desde o início do acordo com o governo federal. A farmacêutica americana envia, em quatro
+                voos diferentes, 5,1 milhões de doses. As aeronaves vão desembarcar no Aeroporto Internacional de
+                Viracopos, em Campinas (SP).
+                <a
+                    href="https://g1.globo.com/sp/campinas-regiao/noticia/2021/09/12/covid-19-brasil-recebe-maior-remessa-de-vacinas-entregues-pela-pfizer-em-4-voos-com-51-milhoes-de-doses.ghtml">
+                    Veja mais. </a>
+            </p>
+
+        </div>
+
+        <div class="noticiasDestaques">
+            <iframe width="365" height="215" src="https://www.youtube.com/embed/eDni1Chanek" title="YouTube video Uol"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h4>Ministério da Saúde vê risco de alta de hospitalizações por Covid em setembro | Gonzalo Vecina Neto
+            </h4>
+            <p class="descDestaque">O ministério da Saúde apontou que o país pode enfrentar um quadro de crescimento
+                nas hospitalizações
+                por covid-19 no mês de setembro. Gonzalo Vecina Neto, médico sanitarista e ex-presidente da Anvisa,
+                comentou hoje, durante participação no UOL News, que "finalmente" as autoridades perceberam a
+                chegada da variante delta. </br> "Caminho está longe de terminar (...) Previsão é de ter uma
+                explosão de casos no final de setembro e início de outubro", alertou o especialista. </p>
+
+
+
+        </div>
+
+        <div class="noticiasDestaques">
+            <img class="imgDestaque" src="/imagens/covidsp.jpeg" alt="Covid-19">
+
+            <h4>SP segue com menor média casos de COVID-19 do ano</h4>
+            <p class="descDestaque"> O Estado de São Paulo registra atualmente a menor média diária de novos casos de
+                COVID-19 deste ano: são 3.906 por dia, número que chegou a ser quase quatro vezes maior no pico da
+                segunda onda da pandemia.
+
+                <a class="link"
+                    href="https://www.saopaulo.sp.gov.br/ultimas-noticias/sp-segue-com-menor-media-casos-de-covid-19-do-ano/">
+                    Veja mais. </a>
+            </p>
+
+        </div>
+
+        <!-- noticias 2-->
+        <div class="noticiasDestaques">
+            <img class="imgDestaque"
+                src="https://s2.glbimg.com/XT_seOz0l2sUgQC_a0Fgwapw2Dc=/0x0:1700x1065/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/O/B/eVxQ9PS6mf0JZMG85ExA/pfizer-domingo.jpg"
+                alt="imagem site G1">
+
+            <h4>Covid-19: Brasil recebe maior remessa de vacinas entregues pela Pfizer em 4 voos com 5,1 milhões de
+                doses</h4>
+            <p class="descDestaque">Aeronaves vão desembarcar no Aeroporto Internacional de Viracopos, em Campinas.
+                Envios fazem parte do
+                novo cronograma da empresa, que prevê 8,9 milhões de imunizantes até este domingo. </br>
+                O Brasil recebe, neste domingo (12), a maior remessa de vacinas contra a Covid-19 entregue pela
+                Pfizer desde o início do acordo com o governo federal. A farmacêutica americana envia, em quatro
+                voos diferentes, 5,1 milhões de doses. As aeronaves vão desembarcar no Aeroporto Internacional de
+                Viracopos, em Campinas (SP).
+                <a
+                    href="https://g1.globo.com/sp/campinas-regiao/noticia/2021/09/12/covid-19-brasil-recebe-maior-remessa-de-vacinas-entregues-pela-pfizer-em-4-voos-com-51-milhoes-de-doses.ghtml">
+                    Veja mais. </a>
+            </p>
+
+        </div>
+
+
+        <div class="noticiasDestaques">
+            <iframe src="https://open.spotify.com/embed/episode/2qWY5sg9FdfMPK5ZRQKq2C" width="100%" height="152"
+                frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <h4>Mix de vacinas: por que e como fazer
+            </h4>
+            <p class="descDestaque">
+                A estratégia de aplicar diferentes imunizantes contra a covid na mesma pessoa tem sido usada em países
+                como EUA, Canadá, Alemanha, Israel e Coreia do Sul.
+                Estudos preliminares indicam que, a depender da combinaçao, a resposta imune cresce. <a class="link"
+                    href="https://open.spotify.com/episode/2qWY5sg9FdfMPK5ZRQKq2C?si=irrl2aJoTuGJt6pClrhUqg&dl_branch=1">
+                    Veja Mais</a>
+            </p>
+
+            <div class="noticiasDestaques">
+                <img class="imgDestaque" src="imagens/Banners_Perguntas_E_Respostas_COVID_19_V1_500x281_Destaquinho.png"
+                    alt="img perguntas e respostas">
+                <h4>Perguntas e Respostas sobre testagem</h4>
+                <p class="descDestaque">Confira as principais questões sobre a testagem da COVID-19 para manter-se
+                    informado durante a
+                    pandemia</p>
+                <p class="descDestaque">Para os especialistas em todos os países afetados pela pandemia, um fato é
+                    indiscutível: testes
+                    precisos e de alta qualidade são essenciais para conter e controlar essa ameaça à saúde global. Por
+                    isso, trouxemos aqui as principais dúvidas para ajudar você a entender melhor sobre o tema e saber
+                    como aprimorar os cuidados com a sua jornada da saúde ao lado do seu médico.
+                    <a
+                        href="https://www.roche.com.br/pt/diagnostica/COVID-19/Saiba-tudo-sobre-testagem-de-COVID-19.html">
+                        Veja mais.</a>
+                </p>
+            </div><br />
+            >>>>>>> master
+
+
+
+        </div>
+
+        <div class="noticiasDestaques">
+            <img class="imgDestaque" src="/imagens/vacina.png" alt="">
+
+            <h4>Vacinação contra a Covid: mais de 36% da população está totalmente imunizada; 65% tomaram a primeira
+                dose</h4>
+            <p class="descDestaque"> Levantamento é feito junto a secretarias de Saúde dos estados. Somando a primeira,
+                a segunda e a dose única, já são 218.397.247 doses aplicadas desde o começo da vacinação.
+
+            </p><a class="link"
+                href="https://g1.globo.com/bemestar/vacina/noticia/2021/09/16/vacinacao-contra-a-covid-mais-de-36percent-da-populacao-esta-totalmente-imunizada-65percent-tomou-a-primeira-dose.ghtml">
+                Veja mais. </a>
+
+        </div>
+
+
+
+
+    </section>
+
+    <div id="rodape">
+        <div id="contato">
+            <h3 id="redesSociais"> Redes Sociais</h3>
+            <div class="rede"><img src="imagens/whatsapp_icon.png" alt="whatsapp_icon" /> +55 (11)98123-6405
+            </div>
+
+            <div class="rede"><img src="imagens/linkedin_icon.png" alt="linkedin_icon" /> <a
+                    href="https://www.linkedin.com/in/jefferson-menezes-5719aa35/">
+                    Jefferson Tupinambá </a> </div>
+            <div class="rede"><img src="imagens/git_icon.png" alt="git_icon" /> <a href="https://github.com/menejef">
+                    Jefferson Tupinambá</a>
+
+
+
+                <div id="email">
+                    <form class="form">
+
+                        <h3>Receba nossas novidades</h3>
+                        <input id="email" type="text" name="email" placeholder="Seu e-mail..." />
+                        <input type="submit" name="acao" value="Enviar" />
+                    </form>
+                    <script var email=document.getElementById('email'); email.addEventListener('focus',()=>{
+                            email.style.borderColor = "#4A5f6a";
+                        });
+
+                        email.addEventListener('blur', () => {
+                            email.style.borderColor = "#ccc";
+                        })
+                    </script>
+                    >>>>>>> master
+                </div>
+                <div class="rede"><img src="imagens/instagram_icon.png" /> <a
+                        href="https://instagram.com/gjefamous">@gjefamous</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
 
 </body>
 
-</htm>
+</html>
