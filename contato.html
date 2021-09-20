@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="br">
 
@@ -7,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/contact.css">
 
-    <title>CSS Grid Flexbox</title>
+    <title>Contato</title>
 </head>
 
 <body>
@@ -35,11 +36,35 @@
                     Jefferson Tupinambá </a> </div>
             <div class="rede"><img src="imagens/git_icon.png" alt="git_icon" /> <a
                     href="https://www.linkedin.com/in/jefferson-tupinambá-5719aa35/"> Jefferson Tupinambá</a>
+
             </div>
-            <div class="rede"><img src="imagens/instagram_icon.png" /> <a href="https://instagram.com/gjefamous">
-                    @gjefamous
-                </a> </div>
-        </div>
-</body>
+        </header>    
+
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e Sobremone</label>  
+                <input type="text" id ="nomesobrenome"class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id= "email"class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone"class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10"  id="mensagem"class="input-padrao" required></textarea>
+                <label class="checkbox" ><input type="checkbox"> Gostaria de  Receber Notificaçães de Nossas Atualizações</label>
+                <input type="submit" value="Enviar Formulario" class="enviar">
+            </form>
+        </main>
+
+   
+
+    <footer>
+        <img src="img/banner-claro.png">
+        <p class="copyright">&copy;copyright GOOD NEWS BRASIL - 2021 </p>
+    </footer>
+
+    </body>
 
 </html>
