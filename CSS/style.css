@@ -7,7 +7,7 @@ header {
 .caixa{
 	
 	position: relative;
-	width: 940px;
+	width: auto;
 	width: 0 auto;
 
 }
@@ -99,7 +99,7 @@ nav a:hover {
  
 
  main{
-	 width: 940px;
+	 width: auto;
 	margin: 0 auto;
  }
  form{
@@ -138,3 +138,15 @@ nav a:hover {
 	 transform: scale(1.2);
 
  }
+ @media screen and (max-width:480px){
+	 	.caixa .perfil .banner{
+			width: auto;
+		 }
+		 h1{
+			 text-align: center;
+		 }
+	 
+ }
+ 		nav{
+			 position: static;
+		 }

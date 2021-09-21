@@ -1,70 +1,60 @@
-
 <!DOCTYPE html>
-<html lang="br">
-
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/contact.css">
-
-    <title>Contato</title>
-</head>
-
+    <title> CONTADO - GOOG NEWS BRASIL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/saibamais.css">
+    </head>
 <body>
 
-    <header class="header">
-        <a href="/index.html"><img src="imagens/logo.png" alt="Logo home" width=""></a>
+    <header>
+        <div class="caixa">
 
-        <nav>
-            <ul class="menu">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/quemsomos.html">Quem Somos</a></li>
-                <li><a href="/contato.html">Contato</a></li>
-                <li><a href="/saibamais.html">Saiba Mais</a></li>
-            </ul>
-        </nav>
+            <h1><img class="banner" src="imagens/banner.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="Saiba mais.html">Saiba Mais </a></li>
+                </ul>
+            </nav>
+
+        </div>
     </header>
 
-    <div id="rodape">
-        <div id="contato">
-            <h3 id="redesSociais"> Redes Sociais</h3>
-            <div class="rede"><img src="imagens/whatsapp_icon.png" alt="whatsapp_icon" /> +55 (11)98123-6405
-            </div>
-            <div class="rede"><img src="imagens/linkedin_icon.png" alt="linkedin_icon" /> <a
-                    href="https://www.linkedin.com/in/jefferson-menezes-5719aa35/">
-                    Jefferson Tupinambá </a> </div>
-            <div class="rede"><img src="imagens/git_icon.png" alt="git_icon" /> <a
-                    href="https://www.linkedin.com/in/jefferson-tupinambá-5719aa35/"> Jefferson Tupinambá</a>
+    <main>
+        <img class= "fale"src="imagens/top-fale.jpg" alt="fale conosco"> 
+        <h1>Fale Conosco<h1>
+            <h2>Deixe aqui o seu Comentario e nos ajude a contruir essa Pagina com a sua cara!</h2>
+        <form action="https://formspree.io/f/mnqlwglv" method="POST">
+            <label for="nomesobrenome">Nome e Sobremone</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
 
-            </div>
-        </header>    
+            <label for="_replyto">Email</label>
+            <input type="email" id="_replyto" name="_replyto" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-        <main>
-            <form>
-                <label for="nomesobrenome">Nome e Sobremone</label>  
-                <input type="text" id ="nomesobrenome"class="input-padrao" required>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
-                <label for="email">Email</label>
-                <input type="email" id= "email"class="input-padrao" required placeholder="seuemail@dominio.com">
-
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone"class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
-
-                <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10"  id="mensagem"class="input-padrao" required></textarea>
-                <label class="checkbox" ><input type="checkbox"> Gostaria de  Receber Notificaçães de Nossas Atualizações</label>
-                <input type="submit" value="Enviar Formulario" class="enviar">
-            </form>
-        </main>
-
-   
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+            <label class="checkbox"><input type="checkbox"> Gostaria de Receber Notificaçães de Nossas
+                Atualizações</label>
+            <input type="submit" value="Enviar Formulario" class="enviar">
+        </form>
+    </main>
 
     <footer>
-        <img src="img/banner-claro.png">
-        <p class="copyright">&copy;copyright GOOD NEWS BRASIL - 2021 </p>
+        <img src="imagens/banner.png" alt="banner">
+        <p>Copyright - GOOD NEWS BRASIL - 2021</p>
     </footer>
 
-    </body>
+</body>
 
 </html>
